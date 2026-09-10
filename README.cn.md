@@ -4,13 +4,25 @@
 
 Command-line launcher
 
-![sunbeam](https://repo.x-cmd.io/sunbeam.svg)
+![sunbeam](https://repo.x-cmd.io/sunbeam.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install sunbeam
 ```
+
+## 代码规模
+
+合计: **9,491** 行代码（覆盖前 5 种语言、共 **71** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 4,360 | 23 | 904 | 32 |
+| Json | 2,824 | 0 | 0 | 12 |
+| TypeScript | 1,667 | 4 | 159 | 18 |
+| Sh | 279 | 16 | 19 | 6 |
+| JavaScript | 216 | 11 | 34 | 3 |
 
 ## 源代码
 
@@ -23,7 +35,6 @@ x install sunbeam
 - **最新版本**: `v1.0.1` (2024-11-29)
 - **最近提交**: 2025-05-30
 - **Release 含资产**: 8 个
-- **发布时间**: 2024-11-29T13:18:00Z
 
 ## 流行度
 
@@ -38,20 +49,24 @@ x install sunbeam
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-20 | 1 | 7 | 1 | 8 | 2 | 27 |
 
-## 代码规模
+## Release 资产
 
-合计: **9,491** 行代码（覆盖前 5 种语言、共 **71** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 4,360 | 23 | 904 | 32 |
-| Json | 2,824 | 0 | 0 | 12 |
-| TypeScript | 1,667 | 4 | 159 | 18 |
-| Sh | 279 | 16 | 19 | 6 |
-| JavaScript | 216 | 11 | 34 | 3 |
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [checksums.txt](https://github.com/pomdtr/sunbeam/releases/download/v1.0.1/checksums.txt) | 556 B | `other` |
+| [config.schema.json](https://github.com/pomdtr/sunbeam/releases/download/v1.0.1/config.schema.json) | 2.5 KiB | `other` |
+| [sunbeam-darwin_amd64.tar.gz](https://github.com/pomdtr/sunbeam/releases/download/v1.0.1/sunbeam-darwin_amd64.tar.gz) | 9.9 MiB | `native/darwin/x64` |
+| [sunbeam-darwin_arm64.tar.gz](https://github.com/pomdtr/sunbeam/releases/download/v1.0.1/sunbeam-darwin_arm64.tar.gz) | 9.4 MiB | `native/darwin/arm64` |
+| [sunbeam-linux_386.tar.gz](https://github.com/pomdtr/sunbeam/releases/download/v1.0.1/sunbeam-linux_386.tar.gz) | 9.5 MiB | `native/unknown` |
+| [sunbeam-linux_amd64.tar.gz](https://github.com/pomdtr/sunbeam/releases/download/v1.0.1/sunbeam-linux_amd64.tar.gz) | 10.0 MiB | `native/linux/x64` |
+| [sunbeam-linux_arm.tar.gz](https://github.com/pomdtr/sunbeam/releases/download/v1.0.1/sunbeam-linux_arm.tar.gz) | 9.3 MiB | `native/linux/arm` |
+| [sunbeam-linux_arm64.tar.gz](https://github.com/pomdtr/sunbeam/releases/download/v1.0.1/sunbeam-linux_arm64.tar.gz) | 9.3 MiB | `native/linux/arm64` |
 
 ## 改进这些数据
 
@@ -62,4 +77,4 @@ sunbeam 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:57:54Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:34:21Z._
